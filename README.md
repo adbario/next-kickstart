@@ -1,3 +1,5 @@
+![Next Kickstart](https://github.com/adbario/next-kickstart/assets/22136575/644ccdae-7d2d-429a-a05b-e6934c7f61d4)
+
 # Next Kickstart
 
 The Quick Launchpad for Next.js Projects.
