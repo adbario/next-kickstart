@@ -7,7 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "format": "prettier --write . --ignore-unknown"
+    "format": "prettier --write . --ignore-unknown",
+    "update": "pnpm dlx taze -w -u && pnpm audit fix",
+    "update:major": "pnpm dlx taze major -w -u && pnpm audit fix"
   },
   "dependencies": {
     "next": "^13.4.12",
