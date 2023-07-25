@@ -6,15 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "lint": "NODE_ENV=development next lint",
     "format": "prettier --write . --ignore-unknown",
     "update": "pnpm dlx taze -w -u && pnpm audit fix",
     "update:major": "pnpm dlx taze major -w -u && pnpm audit fix"
   },
   "dependencies": {
+    "@t3-oss/env-nextjs": "^0.6.0",
     "next": "^13.4.12",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "zod": "^3.21.4"
   },
   "devDependencies": {
     "@types/node": "^20.4.4",
