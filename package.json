@@ -6,7 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "NODE_ENV=development next lint",
+    "lint": "next lint",
     "check-types": "tsc --noEmit",
     "format": "prettier --write . --ignore-unknown",
     "update": "pnpm dlx taze -w -u && pnpm audit fix",
